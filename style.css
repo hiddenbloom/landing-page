@@ -1,0 +1,220 @@
+body {
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive, sans-serif;
+    background-image: url(img/pastelbg.jpg);
+    background-size: cover;
+    padding: 0 230px 0 230px;
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.block1,
+.footer {
+    background-color: #754A3D;
+    border-left: 5px solid #754A3D;
+    border-right: 5px solid #754A3D;
+}
+
+.block3 {
+    background-color: #FFE2EB;
+    border-left: 5px solid #754A3D;
+    border-right: 5px solid #754A3D;
+}
+
+.block2,
+.block4 {
+    background-color: #FAF6D3;
+    border-left: 5px solid #754A3D;
+    border-right: 5px solid #754A3D;
+}
+
+.block2,
+.block3,
+.block4 {
+    display: flex;
+    flex: 1;
+}
+
+.header {
+    margin-bottom: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 15% 8px 15%;
+}
+
+.headerlogo {
+    color: #F5EBEB;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.headerlinks a {
+    color: #F5EBEB;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 0 8px 0 8px;
+}
+
+.block1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 48px 15% 48px 15%;
+}
+
+.block1 h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F5EBEB;
+    margin: 0 0 24px 0;
+    max-width: 500px;
+   
+}
+
+.block1 h4 {
+    font-size: 18px;
+    color:#F5EBEB;
+    font-weight: lighter;
+    margin: 0 0 24px 0;
+    max-width: 500px;
+}
+
+.block1 button {
+    color: #754A3D;
+    background-color: #F2BC79;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 28px;
+    margin-top: 8px;
+}
+
+.headerimage {
+    background-color: white;
+    border-radius: 50%;
+    padding: 50px;
+    
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block2 h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #754A3D;
+    margin-top: 60px;
+    margin-bottom: 32px;
+}
+
+.randomitems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.randomitems .item {
+    display: flex;
+    flex-direction: column;
+    max-width: 180px;
+    margin: 24px;
+    text-align: center;
+}
+
+.randomitems img {
+    order: 0;
+    max-width: 180px;
+    max-height: 180px;
+    border: 5px solid #754A3D;
+    border-radius: 20%;
+    margin-bottom: 16px;
+}
+
+.caption {
+    font-size: 18px;
+    color: #754A3D;
+}
+
+.block3 {
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.block3 .quote {
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive, sans-serif;
+    font-size: 24px;
+    font-style:italic;
+    color: #754A3D;
+    width: auto;
+}
+
+.block3 img {
+    max-width: 200px;
+    margin-top: 16px;
+}
+
+.block4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+
+.CTA {
+    display: flex;
+    gap: 240px;
+    background-color: #FFE2EB;
+    padding: 60px 120px;
+    border-radius: 12px;
+}
+
+.CTAtext {
+    color: #754A3D;
+    font-size: 18px;
+}
+
+.CTAtext .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.CTA button {
+    color: #754A3D;
+    background-color: #FAF6D3;
+    border: 2px solid #754A3D;
+    border-radius: 10px;
+    padding: 8px 28px;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    color: #F5EBEB;
+    padding: 32px;
+}
+
+.footer a {
+    color: #F5EBEB;
+    text-decoration: none;
+}
